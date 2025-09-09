@@ -1,0 +1,88 @@
+import { ContractCenter } from '../types/contractCenter';
+
+export const mockContractsCenter: ContractCenter[] = [
+  {
+    no: '300XXXXX1',
+    detail: 'เลขหลักการ: คพ.ปน.XXX/2568 สัญญาจะซื้อจะขายแบบราคาที่...',
+    amount: 810000,
+    vendorName: 'บริษัท ฮิตาชิ เอสไอเอส (ประเทศไทย) จำกัด',
+    type: 'ซื้อเครื่องมือแพทย์',
+    department: 'BME',
+    status: 'Warning',
+    activity: 'Update Status',
+
+    timeRemain: 82,
+    timeTotal: 160,
+    usage: 410000,
+  },
+  {
+    no: '310XXXXX2',
+    detail: 'เลขหลักการ: ศคป.ITXXX/2568 สัญญาจ้างออกแบบและสำรวจผล...',
+    amount: 12000000,
+    vendorName: 'บริษัท ฟิสิกส์ (ประเทศไทย) จำกัด',
+    type: 'ออกแบบ',
+    department: 'IT',
+    status: 'Delay',
+    activity: 'Wait PR Approve',
+
+    timeRemain: 180,
+    timeTotal: 365,
+    usage: 11000000,
+  },
+  {
+    no: '300XXXXX3',
+    detail: 'เลขหลักการ: คทป.ปน.XXX/2564 บันทึกข้อตกลงจะซื้อจะขายแบบรา...',
+    amount: 15000000,
+    vendorName: 'บริษัท ฮิวเมนิก้า จำกัด (มหาชน)',
+    type: 'จะซื้อ (Price list)',
+    department: 'BME',
+    status: 'Delay',
+    activity: 'Wait Buyer Action',
+
+    timeRemain: 30,
+    timeTotal: 100,
+    usage: 100000,
+  },
+  {
+    no: '300XXXXX4',
+    detail: 'เลขหลักการ: คทป.FMtXXX/2567 สัญญาจ้างดูแลบำรุงรักษาและทำ...',
+    amount: 110000,
+    vendorName: 'บริษัท โออีเอ็มดี คอลเซ็นเตอร์ (ประเทศไทย) จำกัด',
+    type: 'ลิขสิทธิ์',
+    department: 'BME',
+    status: 'Expired',
+    activity: 'Update Status',
+
+    timeRemain: 9,
+    timeTotal: 100,
+    usage: 110000,
+  },
+  {
+    no: '300XXXXX5',
+    detail: 'เลขหลักการ: คพ.FMT.XXX/2568 สัญญาจ้างออกแบบและสำรวจผล...',
+    amount: 330000,
+    vendorName: 'บริษัท ฮิตาชิ เอสไอเอส (ประเทศไทย) จำกัด',
+    type: 'ก่อสร้าง',
+    department: 'FMT',
+    status: 'Expired',
+    activity: 'Wait PO Approve',
+
+    timeRemain: 0,
+    timeTotal: 90,
+    usage: 300000,
+  },
+  {
+    no: '300XXXXX6',
+    detail: 'เลขหลักการ: คพ.FMT.XXX/2568 สัญญาจ้างออกแบบและสำรวจผล...',
+    amount: 11440000,
+    vendorName: 'บริษัท ฮิตาชิ เอสไอเอส (ประเทศไทย) จำกัด',
+    type: 'ซื้อ',
+    department: 'FMT',
+    status: 'Normal',
+    activity: 'Wait Signed Contract',
+
+    timeRemain: 200,
+    timeTotal: 365,
+    usage: 3400000,
+  },
+];
